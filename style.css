@@ -1,0 +1,34 @@
+*{
+    font-size: 22px; 
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color:cadetblue;
+    box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+}
+
+.recipes-container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+}
+
+.recipes-container li{
+    background: rgba(0, 0, 0, 0.15);
+    padding: 2rem; 
+}
+li a{
+    text-decoration: underline;
+    color:#fff;
+    background: none;
+    font-size: 1.5rem;
+
+}
