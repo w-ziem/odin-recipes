@@ -25,10 +25,32 @@
     background: rgba(0, 0, 0, 0.15);
     padding: 2rem; 
 }
+
+ul{
+    list-style: none;
+}
+
+
 li a{
-    text-decoration: underline;
+    text-decoration: none;
     color:#fff;
     background: none;
     font-size: 1.5rem;
+    font-weight: 400;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.14);
+    padding: 14px;
+    border-radius: 15px;
+    display: inline;  
+    width: 300px;
+    height: 300px;
+    background-size:cover;
 
+}
+
+
+li a:hover{
+    color: rgba(0,0,0,0.75);
+    background-image: url(https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg) ;
+    padding: 4rem;
 }
