@@ -1,56 +1,67 @@
 *{
     font-size: 22px; 
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.header{
+body{
+    background-color: #38373f;
+}
+
+
+.container{
+    max-width: 100%;
+    margin: auto;
     text-align: center;
-    font-weight: 800;
-    font-size: 2rem;
-    color:cadetblue;
-    box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.14);
-    border-radius: 15px;
+}
+
+.header{
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 56px;
 }
 
 .recipes-container{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    list-style: none;
+    margin: 10rem auto;
 }
 
-.recipes-container li{
-    background: rgba(0, 0, 0, 0.15);
-    padding: 2rem; 
-}
-
-ul{
+li{
     list-style: none;
+    display: inline-block;
+    margin: 30px;
+    text-align: left;
 }
 
 
 li a{
     text-decoration: none;
     color:#fff;
-    background: none;
+    border: solid 1px antiquewhite;
     font-size: 1.5rem;
     font-weight: 400;
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.14);
-    padding: 14px;
-    border-radius: 15px;
-    display: inline;  
-    width: 300px;
-    height: 300px;
+    padding: 30px;  
     background-size:cover;
-
 }
 
 
-li a:hover{
-    color: rgba(0,0,0,0.75);
-    background-image: url(https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg) ;
+a:hover{
+    color: rgb(69, 255, 69);
+    font-weight: 700;
     padding: 4rem;
+    
+}
+
+#lasagna:hover{
+    color: lightgreen;
+    background-image: url(https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg) ;
+}
+
+
+#recipe:hover{
+    color: darkred;
+    background-image: url(https://miro.medium.com/v2/resize:fit:820/1*y7ZgcnbxdF4aDgh-XaS1-Q.png);
 }
